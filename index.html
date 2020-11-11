@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selección Muchos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>Selección Muchos</h1>
+        </header>
+        <p><em>El borde azul indica obligatorio.</em></p>
+        <form id="forma">
+            <p>
+                <label accesskey="B">
+                    Bizcochos<br>
+                    <select name="bizcochos" multiple>
+                        <option value="dona">Dona</option>
+                        <option value="concha" selected>Concha</option>
+                        <option value="bigote">Bigote</option>
+                        <option value="Churro">Churro</option>
+                        <option value="Cuerno">Cuerno</option>
+                    </select>
+                </label>
+                <br>
+                <output id="salidaBizcochos"></output>
+            </p>
+            <fieldset>
+                <legend>¿A quien pondrías en tu equipo? Selecciona 3</legend>
+                <div>
+                    <label>
+                        <input type="checkbox" accesskey="S" name="celebridades"
+                               value="shakira">
+                        Shakira
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" accesskey="S" name="celebridades"
+                               value="messi">
+                        Lionel Messi
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" accesskey="S" name="celebridades"
+                               value="mahomes">
+                        Patrick Mahomes
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" accesskey="S" name="celebridades"
+                               value="rihanna">
+                        Rihanna
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" accesskey="S" name="celebridades"
+                               value="cristiano">
+                        Cristiano Ronaldo
+                    </label>
+                </div>
+            </fieldset>
+            <output id="salidaCelebridades"></output>
+        </form>
+        <footer>
+            Copyright 2020
+        </footer>
+        <script src="js/CtrlAutorizacion.js"></script>
+    </body>
+</html>
